@@ -20,7 +20,7 @@ Using the visualizations you have in your Tableau Story, describe the results of
 
 ##### Overall Trip Characteristics
 
-<img src="Resources\trips_by_weekday_hour.png">
+<img src="Resources\trips_by_weekday_hour.PNG">
 
 
 
@@ -30,13 +30,13 @@ The initial visualization, Trips by Weekday per Hour displays how trips are conc
 
 The next visualization shows the average trip duration throughout each hour of the day and the number of bikes 'checked out' during that hour. We can also drill down to look at a few hours more closely.
 
-<img src="Resources\drill_down_duration.png">
+<img src="Resources\drill_down_duration.PNG">
 
 With this view it is easier to see the variation of trip duration in each hour. 
 
 
 
-<img src="Resources\customer_types.png">
+<img src="Resources\customer_types.PNG">
 
 The pie chart above shows the proportion of trips taken by subscribers vs. non-subscribing customers. As would be expected, most trips are taken by subscribers. However, this isn't as powerful as it could be because the data is completely de-identified. Subscriptions very likely *do* outnumber individual customers, but it isn't clear without some sort of rider id. 
 
@@ -44,19 +44,19 @@ The pie chart above shows the proportion of trips taken by subscribers vs. non-s
 
 #### Gender Breakdown of Trips 
 
-<img src="Resources\gender.png">
+<img src="Resources\gender.PNG">
 
 This chart shows the relative proportions of each gender among Citi Bike users. Users comprise of about 65% males, 25% women, and 10% unknown.
 
 
 
-<img src="Resources\trips_by_gender_weekday_hour.png">
+<img src="Resources\trips_by_gender_weekday_hour.PNG">
 
 This chart is analogous to the first chart displaying the trips per hour of the weekday, but is  additionally broken down by gender. I excluded the "unkown" gender category, as the amount of data was very small compared to the other two options and didn't provide any additional information. Here, you can see that the same trends of commuting hours hold true, but many more trips are taken by men when compared to women. This is somewhat intuitive based on the proportion of all users belonging to each gender category. 
 
 
 
-<img src="Resources\duration_by_gender.png">
+<img src="Resources\duration_by_gender.PNG">
 
 This chart displays the overall trip duration broken down by gender. As above, orange represents males, blue for females, and red for unknown. In general, this information displays the same trends as the overall trip duration chart, but does follow the expectations set by the user gender breakdown. 
 
@@ -70,7 +70,7 @@ These are included as a reference for the additional chart added below, which al
 
 
 
-<img src="Resources\user_type_gender_weekday.png">
+<img src="Resources\user_type_gender_weekday.PNG">
 
 This chart displays the daily usage rates of the Citi Bike service, broken down by day of the week, customer type, and gender. Again, the unknown gender category was excluded due to size. Basically, this chart shows a compilation of most of what was already determined above regarding gender and daily usage. However, it shows one additional interesting trend: the differences in utilization between customers and subscribers. Subscribers show the highest utilization during the weekdays (Monday through Friday), whereas Customers show higher utilization on the weekends (Saturday and Sunday). This indicates a major motivator for subscription: the commute. 
 
